@@ -63,7 +63,7 @@ public class AccountHolder extends User {
         this.primaryAddress = primaryAddress;
         this.mailingAddress = mailingAddress;
         this.accounts = accounts;
-        addRole(new Role("ACCOUNTHOLDER",this));
+        addRole(new Role());
     }
 
     public Boolean isUnder24() {
